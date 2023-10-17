@@ -7,8 +7,8 @@ function ThemeSwitcher() {
     const resetTheme = () => {
         setTheme(null);
     };
-    return (<div className="mt-2">
-        <Dropdown as={ButtonGroup} size="lg">
+    return (<div >
+        <Dropdown as={ButtonGroup} size="sm">
             <Button
                 className="text-capitalize"
                 variant={theme ? theme : "secondary"}
